@@ -11,6 +11,8 @@ public class Segitiga {
         return alas * tinggi / 2;
     }
     public double keliling() {
-        return alas + tinggi + Math.sqrt((alas * alas) + (tinggi * tinggi));
+        double Pytagoras = Math.sqrt((1/2*(alas) * 1/2*(alas) + (tinggi * tinggi)));
+        return (2 * Pytagoras) + alas;
+       
     }
 }

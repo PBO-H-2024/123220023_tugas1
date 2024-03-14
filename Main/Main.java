@@ -60,8 +60,8 @@ public class Main {
          System.out.println("input tinggi : ");
          double tinggi = scanner.nextDouble();
          Tabung tabung = new Tabung(jari, tinggi);
-         System.out.println("luas tabung : " + tabung.luas());
-         System.out.println("keliling tabung : " + tabung.keliling());
+         System.out.println("luas lingkaran : " + tabung.luas());
+         System.out.println("keliling lingkaran : " + tabung.keliling());
          System.out.println("volume tabung : " + tabung.volume());
          System.out.println("luas permukaan tabung : " + tabung.luasPermukaan());
     }
