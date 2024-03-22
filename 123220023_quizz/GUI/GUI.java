@@ -89,6 +89,14 @@ public class GUI extends JFrame implements ActionListener {
             }
 
             resultLabel.setText(hasil);
+            System.out.println("name : " + name);
+            System.out.println("nim : " + nim);
+            System.out.println("writing score : " + writingScore);
+            System.out.println("coding score : " + codingScore);
+            System.out.println("interview score : " + interviewScore);
+            System.out.println("android score : " + androidScore);
+            System.out.println("web score : " + webScore);
+            System.out.println("result : " + hasil);
         } catch (NumberFormatException ex) {
             System.err.println("Error: " + ex.getMessage());
         }
